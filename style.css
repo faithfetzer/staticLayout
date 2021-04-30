@@ -1,7 +1,20 @@
 
+body {
+    margin: 0px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.wrapper {
+    margin: bleed;
+}
+
 .welcome {
     background-image: url('./assets/cknz6456z85401u54nmaceboh-tht-homepage-3200x1320-v2.jpeg');
-    background-size: auto;
+    background-position: right;
+    background-size: cover;
 }
 /* fades to gradient black at top of image */
 
@@ -13,7 +26,7 @@
 
 .login {
     color: #FFFFFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Graphik', Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin: 4px 0px;
     padding: 23px 0px 17px;
@@ -24,12 +37,12 @@
 .welcome-feature {
     padding: 40px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Graphik', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     letter-spacing: 2px;
-    font-weight: 600px;
+    font-weight: 600;
 }
 
 #handmaid-logo {
@@ -38,25 +51,50 @@
 }
 
 #new-episodes{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
     margin: 6px 0px;
 }
 
 #free-month {
+
     color: #2DBD9D;
     font-size: 12px;
-    font-weight: 600;
     letter-spacing: 0.5px;
     line-height: 13px;
     padding-bottom: 8px;
 }
 
 #welcome-logo {
-    height: 20px;
-    width: 50px;
+    width: 167.5px;
 }
 
+#monthly-plans {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+#free-trial {
+    height: 56px;
+    border: 4px;
+    background: #FFFFFF;
+    padding: 0px 32px;
+    color: #040505;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+#trial-info {
+    font-size: 10px;
+    margin-top: 16px;
+    font-weight: normal;
+    opacity: 0.6;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+}
 .bundles {
     background-image: linear-gradient(135deg, #231437 0%, #2c385e 50%, #336e6b 100%);
 }
