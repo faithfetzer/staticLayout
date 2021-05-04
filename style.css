@@ -198,6 +198,7 @@ button, a {
     margin: 0px 80px 0px 80px;
     position: relative;
     z-index: 2;
+    align-items: center;
 }
 
 .image-row a {
@@ -227,4 +228,12 @@ button, a {
     font-size: 24px;
     font-weight: bold;
     
+}
+
+#prem-cost {
+    font-size: 10px;
+    position: relative;
+    text-align: right;
+    bottom: 500px;
+    right: 100px;
 }
