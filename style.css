@@ -1,239 +1,248 @@
-
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
-button, a {
-    cursor: pointer;
+button,
+a {
+  cursor: pointer; 
 }
 
+button:hover {
+    opacity: 0.7;
+}
 .wrapper {
-    margin: bleed;
+  margin: bleed;
 }
 
 .welcome {
-    background-image: url('./assets/cknz6456z85401u54nmaceboh-tht-homepage-3200x1320-v2.jpeg');
-    background-position: right;
-    background-size: cover;
+  background-image: url("./assets/cknz6456z85401u54nmaceboh-tht-homepage-3200x1320-v2.jpeg");
+  background-position: right;
+  background-size: cover;
 }
 /* fades to gradient black at top of image */
 
-.welcome nav{
-    width: 87%;
-    display: flex;
-    justify-content: flex-end;
+.welcome nav {
+  width: 87%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .login {
-    color: #FFFFFF;
-    margin: 4px 0px;
-    padding: 23px 0px 17px;
-    background-color: transparent;
-    border: none;
+  color: #ffffff;
+  margin: 4px 0px;
+  padding: 23px 0px 17px;
+  background-color: transparent;
+  border: none;
 }
 
 .welcome-feature {
-    padding: 40px;
-    color: white;
-    font-family: 'Graphik', Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    letter-spacing: 2px;
-    font-weight: 600;
+  padding: 40px;
+  color: white;
+  font-family: "Graphik", Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 
 #handmaid-logo {
-    width: 502.5px;
-    height: 106.67px;
+  width: 502.5px;
+  height: 106.67px;
 }
 
-#new-episodes{
-    font-size: 11px;
-    margin: 6px 0px;
+#new-episodes {
+  font-size: 11px;
+  margin: 6px 0px;
 }
 
 #free-month {
-
-    color: #2DBD9D;
-    font-size: 12px;
-    letter-spacing: 0.5px;
-    line-height: 13px;
-    padding-bottom: 8px;
+  color: #2dbd9d;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 13px;
+  padding-bottom: 8px;
 }
 
 #welcome-logo {
-    width: 167.5px;
+  width: 167.5px;
 }
 
 #monthly-plans {
-    font-size: 22px;
-    line-height: 30px;
-    margin-top: 16px;
-    text-align: center;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 16px;
+  text-align: center;
 }
 
 #free-trial {
-    height: 56px;
-    border: 4px;
-    background: #FFFFFF;
-    padding: 0px 32px;
-    color: #040505;
-    font-size: 14px;
-    line-height: 14px;
-    letter-spacing: 1px;
-    font-weight: 600;
+  height: 56px;
+  border: 4px;
+  background: #ffffff;
+  padding: 0px 32px;
+  color: #040505;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 #trial-info {
-    font-size: 10px;
-    margin-top: 16px;
-    font-weight: normal;
-    opacity: 0.6;
-    line-height: 16px;
-    letter-spacing: 0.5px;
+  font-size: 10px;
+  margin-top: 16px;
+  font-weight: normal;
+  opacity: 0.6;
+  line-height: 16px;
+  letter-spacing: 0.5px;
 }
 
 .bundles {
-    background-image: linear-gradient(135deg, #231437 0%, #2c385e 50%, #336e6b 100%);
-    font-family: 'Graphik', Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    color: #FFFFFF;
+  background-image: linear-gradient(
+    135deg,
+    #231437 0%,
+    #2c385e 50%,
+    #336e6b 100%
+  );
+  font-family: "Graphik", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #ffffff;
 }
 
-.bundle-contents{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 34px 40px 34px 40px;
+.bundle-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 34px 40px 34px 40px;
 }
 #bundle-logo {
-    max-width: 355px;
+  max-width: 355px;
 }
 
 .save-with-bundles {
-    padding: 0px 30px;
+  padding: 0px 30px;
 }
 #bundle-save {
-    color: #2DBD9D;
-    font-size: 12px;
+  color: #2dbd9d;
+  font-size: 12px;
 }
 
 #bundle-info {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 #details {
-    font-size: 14px;
-    color: #FFFFFF;
-    opacity: 0.7;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.7;
 }
 
 .get-and-legal {
-    padding: 20px 8px 0px 8px;
-    flex-direction: column;
-    text-align: center;
+  padding: 20px 8px 0px 8px;
+  flex-direction: column;
+  text-align: center;
 }
 
 #get-bundle {
-    padding: 0px;
-    font-size: 14px;
-    color: #ffffff;
-    background: none;
-    border: solid 2px #FFFFFF;
-    height: 46px;
-    width: 136px;
-    letter-spacing: 1px;
-    white-space: nowrap;
-    border-radius: 4px;
+  padding: 0px;
+  font-size: 14px;
+  color: #ffffff;
+  background: none;
+  border: solid 2px #ffffff;
+  height: 46px;
+  width: 136px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  border-radius: 4px;
 }
 
 #legal-terms {
-    font-size: 10px;
-    color: #FFFFFF;
-    opacity: 0.7;
-    padding: 0px;
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 0.7;
+  padding: 0px;
 }
 
 .plans {
-    background: #000000;
-    color: #FFFFFF;
-    position: relative;
+  background: #000000;
+  color: #ffffff;
+  position: relative;
+  width: 100vw;
 }
 .plan-intro {
-    padding: 88px 20px 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Graphik', Arial, Helvetica, sans-serif;
-
+  padding: 88px 20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Graphik", Arial, Helvetica, sans-serif;
 }
 
-.plan-intro h4{
-    font-size: 12px;
-    color: #2DBD9D;
-    margin: 0px 0px 16px;
+.plan-intro h4 {
+  font-size: 12px;
+  color: #2dbd9d;
+  margin: 0px 0px 16px;
 }
 
 .plan-intro h1 {
-    font-size: 48px;
-    color: #FCFCFC;
-    margin: 0px 0px 16px;
-    letter-spacing: -0.5px;
-    font-weight: 800px;
-    line-height: 53px;
+  font-size: 48px;
+  color: #fcfcfc;
+  margin: 0px 0px 16px;
+  letter-spacing: -0.5px;
+  font-weight: 800px;
+  line-height: 53px;
 }
 
-.plan-intro p{
-    font-size: 16px;
-    color: #FFFFFF;
-    text-align: center;
-    margin: 16px 0px 0px;
-
+.plan-intro p {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  margin: 16px 0px 0px;
 }
 
 .image-row {
-    display: flex;
-    flex-direction: row;
-    margin: 0px 80px 0px 80px;
-    position: relative;
-    z-index: 2;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  position: relative;
+  z-index: 2;
+  justify-content: center;
 }
 
 .image-row a {
-    position: relative;
-    z-index: 6;
-    color: #FFFFFF;
-    text-decoration: none;
-    background-image: linear-gradient(to bottom right,rgb(0, 0, 0, 0.6) 5%, rgba(0,0,0,0));
+  position: relative;
+  z-index: 6;
+  color: #ffffff;
+  text-decoration: none;
+  background-size: contain;
+  background-position: center;
 }
 
 .image-row img {
-    position: relative;
-    z-index: -1;
+  position: relative;
+  z-index: -1;
+  padding: 10px;
 }
 
 .description {
-    position: relative;
-    z-index: 4;
-    top: -460px;
-    left: 0px;
-    font-size: 16px;
-    padding: 50px 130px 400px 10px;
-    background-image: linear-gradient(to bottom,rgb(0, 0, 0, 0.6) 10%, rgba(0,0,0,0));
+  position: relative;
+  z-index: 4;
+  top: -470px;
+  left: 0px;
+  font-size: 16px;
+  padding: 50px 130px 400px 10px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0, 0.6) 10%,
+    rgba(0, 0, 0, 0));
 }
 
 .emphasis {
-    font-size: 24px;
-    font-weight: bold;
-    
+  font-size: 24px;
+  font-weight: bold;
 }
 
 #prem-cost {
-    font-size: 10px;
-    position: relative;
-    text-align: right;
-    bottom: 500px;
-    right: 100px;
+  font-size: 10px;
+  position: absolute;
+  top: 750px;
+  left: 960px;
 }
