@@ -3,7 +3,7 @@ body {
     margin: 0px;
 }
 
-button {
+button, a {
     cursor: pointer;
 }
 
@@ -26,8 +26,6 @@ button {
 
 .login {
     color: #FFFFFF;
-    font-family: 'Graphik', Arial, Helvetica, sans-serif;
-    font-size: 14px;
     margin: 4px 0px;
     padding: 23px 0px 17px;
     background-color: transparent;
@@ -98,10 +96,113 @@ button {
 
 .bundles {
     background-image: linear-gradient(135deg, #231437 0%, #2c385e 50%, #336e6b 100%);
+    font-family: 'Graphik', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.bundle-contents{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px 40px 34px 40px;
+}
+#bundle-logo {
+    max-width: 355px;
+}
+
+.save-with-bundles {
+    padding: 0px 30px;
+}
+#bundle-save {
+    color: #2DBD9D;
+    font-size: 12px;
+}
+
+#bundle-info {
+    font-size: 24px;
+}
+
+#details {
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.get-and-legal {
+    padding: 20px 8px 0px 8px;
+    flex-direction: column;
+    text-align: center;
+}
+
+#get-bundle {
+    padding: 0px;
+    font-size: 14px;
+    color: #ffffff;
+    background: none;
+    border: solid 2px #FFFFFF;
+    height: 46px;
+    width: 136px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    border-radius: 4px;
+}
+
+#legal-terms {
+    font-size: 10px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding: 0px;
+}
+
+.plans {
+    background: #000000;
+    color: #FFFFFF;
+}
+.plan-intro {
+    padding: 88px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Graphik', Arial, Helvetica, sans-serif;
 
 }
 
-#bundle-logo {
+.plan-intro h4{
+    font-size: 12px;
+    color: #2DBD9D;
+    margin: 0px 0px 16px;
+}
 
+.plan-intro h1 {
+    font-size: 48px;
+    color: #FCFCFC;
+    margin: 0px 0px 16px;
+    letter-spacing: -0.5px;
+    font-weight: 800px;
+    line-height: 53px;
+}
+
+.plan-intro p{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 16px 0px 0px;
+
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 80px 0px 80px;
+
+}
+
+.image-row a {
+    padding: 
+}
+
+.description {
+    position: relative;
+    
 }
